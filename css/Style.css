@@ -1,0 +1,22 @@
+/* Resetear los márgenes y el padding de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo básico para el footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+    /* Espaciado entre el footer y el resto de contenido */
+    margin-top: 20px; /* Puedes ajustar este valor según sea necesario */
+  }
+  
+  a {
+    /*esto hace que los titulo que manda a las pagina de noticias no esten subrayada y escoger el color de la letras */
+      text-decoration: none; 
+      color: rgb(0, 0, 0); 
+  }
